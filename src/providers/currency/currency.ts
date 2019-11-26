@@ -12,7 +12,7 @@ export enum Coin {
   PAX = 'pax'
 }
 
-export type CoinsMap<T> = { [key in Coin]: T };
+export type CoinsMap<T> = { [Coin.BTC]: T };
 
 @Injectable()
 export class CurrencyProvider {
