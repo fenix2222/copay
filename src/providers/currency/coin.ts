@@ -40,21 +40,30 @@ export interface CoinOpts {
     gradientBackgroundColor: string;
   };
 }
-
+// btc: {
+//   name: 'Bitcoin',
+//   chain: 'BTC',
+//   coin: 'btc',
+//   unitInfo: {
+//     unitName: 'BTC',
+//     unitToSatoshi: 100000000,
+//     unitDecimals: 8,
+//     unitCode: 'btc'
+//   },
 export const availableCoins: CoinsMap<CoinOpts> = {
-  btc: {
-    name: 'Bitcoin',
-    chain: 'BTC',
-    coin: 'btc',
+  strat: {
+    name: 'Stratis',
+    chain: 'STRAT',
+    coin: 'strat',
     unitInfo: {
-      unitName: 'BTC',
+      unitName: 'STRAT',
       unitToSatoshi: 100000000,
       unitDecimals: 8,
-      unitCode: 'btc'
+      unitCode: 'strat'
     },
     properties: {
-      hasMultiSig: true,
-      hasMultiSend: true,
+      hasMultiSig: false,
+      hasMultiSend: false,
       isUtxo: true,
       isERCToken: false,
       isStableCoin: false,
@@ -69,11 +78,11 @@ export const availableCoins: CoinsMap<CoinOpts> = {
     feeInfo: {
       feeUnit: 'sat/byte',
       feeUnitAmount: 1000,
-      blockTime: 10,
+      blockTime: 1,
       maxMerchantFee: 'urgent'
     },
     theme: {
-      backgroundColor: 'rgba(247,146,26,1)',
+      backgroundColor: 'rgba(19,130,198,1)',
       gradientBackgroundColor: 'rgba(247,146,26, 0.2)'
     }
   }

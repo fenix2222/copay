@@ -9,10 +9,11 @@ export enum Coin {
   ETH = 'eth',
   USDC = 'usdc',
   GUSD = 'gusd',
-  PAX = 'pax'
+  PAX = 'pax',
+  STRAT = 'strat'
 }
 
-export type CoinsMap<T> = { [Coin.BTC]: T };
+export type CoinsMap<T> = { ['strat']: T };
 
 @Injectable()
 export class CurrencyProvider {

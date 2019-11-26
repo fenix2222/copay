@@ -132,10 +132,10 @@ export class ConfigProvider {
         reconnectDelay: 5000,
         idleDurationMin: 4,
         settings: {
-          unitName: 'BTC',
+          unitName: 'STRAT',
           unitToSatoshi: 100000000,
           unitDecimals: 8,
-          unitCode: 'btc',
+          unitCode: 'strat',
           alternativeName: 'US Dollar',
           alternativeIsoCode: 'USD',
           defaultLanguage: '',
@@ -145,7 +145,7 @@ export class ConfigProvider {
 
       // Bitcore wallet service URL
       bws: {
-        url: 'https://bws.bitpay.com/bws/api'
+        url: 'http://localhost:3232/bws/api'
       },
 
       download: {
@@ -182,14 +182,14 @@ export class ConfigProvider {
       // External services
       showIntegration: {
         coinbase: false,
-        debitcard: true,
-        amazon: true,
-        mercadolibre: true,
-        shapeshift: true,
-        giftcards: true
+        debitcard: false,
+        amazon: false,
+        mercadolibre: false,
+        shapeshift: false,
+        giftcards: false
       },
 
-      pushNotificationsEnabled: true,
+      pushNotificationsEnabled: false,
 
       desktopNotificationsEnabled: true,
 
@@ -198,11 +198,11 @@ export class ConfigProvider {
       },
 
       productsUpdates: {
-        enabled: true
+        enabled: false
       },
 
       offersAndPromotions: {
-        enabled: true
+        enabled: false
       },
 
       emailNotifications: {
@@ -247,9 +247,9 @@ export class ConfigProvider {
 
     this.logger.debug(
       'Config | spendUnconfirmed: ' +
-        spendUnconfirmed +
-        ' - lockMethod: ' +
-        lockMethod
+      spendUnconfirmed +
+      ' - lockMethod: ' +
+      lockMethod
     );
   }
 
