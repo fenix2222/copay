@@ -10,15 +10,6 @@
           <div class="item-title">{{ getCoinName(coin) }} ({{ coin.toUpperCase() }})</div>
         </button>
       </div>
-      <div *ngIf="!navParam.data.isShared">
-        <span class="list-subtitle" translate>Tokens</span>
-        <button *ngFor="let token of availableTokens" class="list-button" [disabled]="tokenDisabled[token.symbol]" ion-item (click)="showPairedWalletSelector(token)">
-          <ion-icon item-start>
-            <img src="assets/img/currencies/{{token.symbol.toLowerCase()}}.svg" />
-          </ion-icon>
-          <div class="item-title">{{ token.name }} ({{ token.symbol }})</div>
-        </button>
-      </div>
     </ion-list>
   </div>
   <div page-content *ngIf="isZeroState" class="zero-page">
@@ -32,18 +23,6 @@
             </ion-icon>
             <ion-label class="item-title">{{ getCoinName(coin) }} ({{coin.toUpperCase() }})</ion-label>
             <ion-toggle [(ngModel)]="coinsSelected[coin]" (ngModelChange)="setTokens(coin)"></ion-toggle>
-          </ion-item>
-        </div>
-        <div *ngIf="!navParam.data.isShared">
-          <span class="list-subtitle" translate>Tokens</span>
-          <ion-item *ngFor="let token of availableTokens" class="list-button">
-            <ion-icon item-start>
-              <img src="assets/img/currencies/{{token.symbol.toLowerCase()}}.svg" />
-            </ion-icon>
-            <ion-label class="item-title">
-              {{ token.name }} ({{ token.symbol }})
-            </ion-label>
-            <ion-toggle [(ngModel)]="tokensSelected[token.symbol]" [disabled]="!coinsSelected.eth"></ion-toggle>
           </ion-item>
         </div>
       </ion-list>
