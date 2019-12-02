@@ -9,7 +9,8 @@ export enum Coin {
   ETH = 'eth',
   USDC = 'usdc',
   GUSD = 'gusd',
-  PAX = 'pax'
+  PAX = 'pax',
+  STRAT = 'strat'
 }
 
 export type CoinsMap<T> = { [key in Coin]: T };
