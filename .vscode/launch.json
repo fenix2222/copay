@@ -6,7 +6,7 @@
       "type": "chrome",
       "request": "launch",
       "url": "http://localhost:8100/",
-      "webRoot": "${workspaceFolder}/www"
+      "webRoot": "${workspaceFolder}"
     },
     {
       // To watch and rebuild changes in the app, use `npm run ionic:serve` in
