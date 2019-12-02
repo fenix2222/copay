@@ -48,11 +48,7 @@ export class AboutPage {
 
   public openExternalLink(): void {
     const url =
-      'https://github.com/bitpay/' +
-      this.appProvider.info.gitHubRepoName +
-      '/tree/' +
-      this.appProvider.info.commitHash +
-      '';
+      'https://github.com/stratisplatform/stratis-mobile-wallet/';
     const optIn = true;
     const title = this.translate.instant('Open GitHub Project');
     const message = this.translate.instant(
@@ -71,7 +67,7 @@ export class AboutPage {
   }
 
   public openTermsOfUse() {
-    const url = 'https://bitpay.com/about/terms#wallet';
+    const url = 'https://stratisplatform.com/terms-of-use/';
     const optIn = true;
     const title = null;
     const message = this.translate.instant('View Wallet Terms of Use');
@@ -88,7 +84,7 @@ export class AboutPage {
   }
 
   public openPrivacyPolicy() {
-    const url = 'https://bitpay.com/about/privacy';
+    const url = 'https://stratisplatform.com/privacy/';
     const optIn = true;
     const title = null;
     const message = this.translate.instant('View Privacy Policy');
