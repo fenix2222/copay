@@ -51,7 +51,7 @@
       {{'Send' | translate}}
     </button>
   </div> -->
-  <div *ngIf="(score == 3 || !score) && isCordova" class="user-feedback-card" (click)="showAppreciationSheet()">
+  <!-- <div *ngIf="(score == 3 || !score) && isCordova" class="user-feedback-card" (click)="showAppreciationSheet()">
     <ion-row>
       <div class="feedback-icon">
         <img src="assets/img/icon-star-review.svg" />
@@ -63,8 +63,8 @@
       </ion-col>
       <div class="feedback-action-icon arrow arrow-right"></div>
     </ion-row>
-  </div>
-  <div *ngIf="score != 1" class="user-feedback-card" (click)="showInfoSheet('request-feature', 'https://bitpay.canny.io/wallet-feature-request/create')">
+  </div> -->
+  <!-- <div *ngIf="score != 1" class="user-feedback-card" (click)="showInfoSheet('request-feature', 'https://bitpay.canny.io/wallet-feature-request/create')">
     <ion-row>
       <div class="feedback-icon">
         <img src="assets/img/ico-chat.svg" />
@@ -78,8 +78,8 @@
         <img src="assets/img/ico-link.svg" />
       </div>
     </ion-row>
-  </div>
-  <div *ngIf="score != 3" class="user-feedback-card" (click)="showInfoSheet('report-issue','https://bitpay.com/request-help/wizard?category=wallet')">
+  </div> -->
+  <div class="user-feedback-card" (click)="showInfoSheet('report-issue','https://github.com/stratisproject/stratis-mobile-wallet/')">
     <ion-row>
       <div class="feedback-icon">
         <img src="assets/img/ico-bug.svg" />
@@ -94,7 +94,7 @@
       </div>
     </ion-row>
   </div>
-  <div *ngIf="score == 1" class="user-feedback-card" (click)="openExternalLink('https://help.bitpay.com/requestHelp/create')">
+  <div class="user-feedback-card" (click)="openExternalLink('https://stratisplatform.com/contact/')">
     <ion-row>
       <div class="feedback-icon">
         <img src="assets/img/icon-question-help.svg" />
