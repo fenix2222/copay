@@ -6,7 +6,7 @@
   "themeColor": "#192c3a",
   "userVisibleName": "Stratis Wallet",
   "purposeLine": "Stratis Wallet Wallet",
-  "bundleName": "stratis",
+  "bundleName": "wallet",
   "appUri": "stratis",
   "name": "stratis",
   "nameNoSpace": "stratiswallet",
