@@ -8,6 +8,7 @@ export class DerivationPathHelperProvider {
   public defaultTestnet: string;
   public defaultMultisigBTC: string;
   public defaultMultisigBCH: string;
+  public defaultStrat: string;
 
   public constructor() {
     this.defaultBTC = "m/44'/0'/0'";
@@ -16,6 +17,7 @@ export class DerivationPathHelperProvider {
     this.defaultMultisigBTC = "m/48'/0'/0'";
     this.defaultMultisigBCH = "m/48'/145'/0'";
     this.defaultTestnet = "m/44'/1'/0'";
+    this.defaultStrat = "m/44'/1/0'"
   }
 
   public parsePath(path: string) {
@@ -65,6 +67,9 @@ export class DerivationPathHelperProvider {
       case "60'": // for ETH
         networkName = 'livenet';
         break;
+      case "105'": // for Stratis
+        networkName = 'livenet';
+        break;
     }
     return networkName;
   }
@@ -96,6 +101,9 @@ export class DerivationPathHelperProvider {
         break;
       case 'eth':
         isValid = ["60'", "0'", "1'"].indexOf(coinCode) > -1;
+        break;
+      case 'strat':
+        isValid = ["105'"].indexOf(coinCode) > -1;
         break;
     }
 

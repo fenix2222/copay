@@ -99,8 +99,8 @@ export class ImportWalletPage {
       file: [null],
       filePassword: [null],
       derivationPathEnabled: [false],
-      coin: ['btc'],
-      derivationPath: [this.derivationPathHelperProvider.defaultBTC],
+      coin: ['strat'],
+      derivationPath: [this.derivationPathHelperProvider.defaultStrat],
       bwsURL: [this.defaults.bws.url],
       isMultisig: [false]
     });
