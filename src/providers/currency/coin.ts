@@ -63,7 +63,7 @@ export const availableCoins: CoinsMap<CoinOpts> = {
     paymentInfo: {
       paymentCode: 'BIP73',
       protocolPrefix: { livenet: 'stratis', testnet: 'stratistest' },
-      ratesApi: 'https://bitpay.com/api/rates',
+      ratesApi: 'https://stratis-rates.azurewebsites.net/api/rates',
       blockExplorerUrls: 'https://stratisexplorer.stratisplatform.com/'
     },
     feeInfo: {
