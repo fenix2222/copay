@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import * as _ from 'lodash';
+// import * as _ from 'lodash';
 import { availableCoins, CoinOpts } from './coin';
 import { Token, TokenOpts } from './token';
 
@@ -65,11 +65,7 @@ export class CurrencyProvider {
   }
 
   getAvailableChains(): string[] {
-    return _.uniq(
-      _.map(Object.values(this.coinOpts), (opts: CoinOpts) =>
-        opts.chain.toLowerCase()
-      )
-    );
+    return ['strat'];
   }
 
   getAvailableTokens(): Token[] {
