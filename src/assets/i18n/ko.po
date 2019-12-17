@@ -1415,7 +1415,7 @@ msgstr "GitHub 열기"
 msgid "Open GitHub Project"
 msgstr "GitHub 프로젝트 열기"
 
-msgid "Open Insight"
+msgid "Open block explorer"
 msgstr "Insight 열기"
 
 msgid "Open Translation Community"
@@ -2333,7 +2333,7 @@ msgstr ""
 msgid "View Redemption Code"
 msgstr ""
 
-msgid "View Transaction on Insight"
+msgid "View transaction on block explorer"
 msgstr "Insight에서 거래 보기"
 
 msgid "View Wallet Terms of Use"

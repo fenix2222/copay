@@ -1415,7 +1415,7 @@ msgstr "打开 GitHub"
 msgid "Open GitHub Project"
 msgstr "打开 GitHub 项目"
 
-msgid "Open Insight"
+msgid "Open block explorer"
 msgstr "开放的洞察力"
 
 msgid "Open Translation Community"
@@ -2333,7 +2333,7 @@ msgstr "查看隐私策政策"
 msgid "View Redemption Code"
 msgstr ""
 
-msgid "View Transaction on Insight"
+msgid "View transaction on block explorer"
 msgstr "查看交易记录的洞察"
 
 msgid "View Wallet Terms of Use"

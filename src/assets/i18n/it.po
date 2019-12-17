@@ -1415,7 +1415,7 @@ msgstr "Aprire Github"
 msgid "Open GitHub Project"
 msgstr "Aprire il progetto GitHub"
 
-msgid "Open Insight"
+msgid "Open block explorer"
 msgstr "Aprire Insight"
 
 msgid "Open Translation Community"
@@ -2333,7 +2333,7 @@ msgstr "Visualizza informativa sulla privacy"
 msgid "View Redemption Code"
 msgstr "Visualizza il codice di riscatto"
 
-msgid "View Transaction on Insight"
+msgid "View transaction on block explorer"
 msgstr "Visualizzazione della transazione su Insight"
 
 msgid "View Wallet Terms of Use"

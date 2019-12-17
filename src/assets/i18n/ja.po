@@ -1416,7 +1416,7 @@ msgstr "GitHubを開く"
 msgid "Open GitHub Project"
 msgstr "GitHub のプロジェクトを開く"
 
-msgid "Open Insight"
+msgid "Open block explorer"
 msgstr "Insightを開く"
 
 msgid "Open Translation Community"
@@ -2336,7 +2336,7 @@ msgstr ""
 msgid "View Redemption Code"
 msgstr ""
 
-msgid "View Transaction on Insight"
+msgid "View transaction on block explorer"
 msgstr "Insightにて取引を表示"
 
 msgid "View Wallet Terms of Use"

@@ -290,16 +290,11 @@ export class TxDetailsPage {
 
   public viewOnBlockchain(): void {
     let btx = this.btx;
-    let url =
-      'https://' +
-      this.blockexplorerUrl +
-      (this.getShortNetworkName() == 'test' ? 'testnet/' : 'mainnet/') +
-      'tx/' +
-      btx.txid;
+    let url = this.blockexplorerUrl + 'transactions/' + btx.txid;
     let optIn = true;
     let title = null;
-    let message = this.translate.instant('View Transaction on Insight');
-    let okText = this.translate.instant('Open Insight');
+    let message = this.translate.instant('View transaction on block explorer');
+    let okText = this.translate.instant('Open block explorer');
     let cancelText = this.translate.instant('Go Back');
     this.externalLinkProvider.open(
       url,
