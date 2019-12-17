@@ -100,7 +100,7 @@ export class ImportWalletPage {
       filePassword: [null],
       derivationPathEnabled: [false],
       coin: ['strat'],
-      derivationPath: [this.derivationPathHelperProvider.defaultStrat],
+      derivationPath: [this.derivationPathHelperProvider.defaultSTRAT],
       bwsURL: [this.defaults.bws.url],
       isMultisig: [false]
     });

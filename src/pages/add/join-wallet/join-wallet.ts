@@ -168,7 +168,7 @@ export class JoinWalletPage {
         this.derivationPathByDefault =
           this.coin == 'bch'
             ? this.derivationPathHelperProvider.defaultBCH
-            : this.derivationPathHelperProvider.defaultStrat;
+            : this.derivationPathHelperProvider.defaultSTRAT;
 
         this.setDerivationPath(walletData.network);
 
