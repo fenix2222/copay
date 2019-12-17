@@ -134,8 +134,8 @@ msgstr ""
 msgid "All addresses"
 msgstr ""
 
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
-msgstr "Mogelijk is niet het volledige saldo van uw bitcoin portemonnee direct beschikbaar voor uitgaven."
+msgid "All of your stratis wallet balance may not be available for immediate spending."
+msgstr "Mogelijk is niet het volledige saldo van uw stratis portemonnee direct beschikbaar voor uitgaven."
 
 msgid "Allow camera access"
 msgstr ""
@@ -170,8 +170,8 @@ msgstr ""
 msgid "Apply changes"
 msgstr ""
 
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "Geschatte Bitcoin netwerk transactiekosten voor overdracht van volledige saldo van portemonnee (met normale prioriteit)"
+msgid "Approximate Stratis network fee to transfer wallet's balance (with normal priority)"
+msgstr "Geschatte Stratis netwerk transactiekosten voor overdracht van volledige saldo van portemonnee (met normale prioriteit)"
 
 msgid "Archive All {brand} Gift Cards?"
 msgstr ""
@@ -260,8 +260,8 @@ msgstr ""
 msgid "BitPay does not receive and does not control miner fees."
 msgstr ""
 
-msgid "Bitcoin Address"
-msgstr "Bitcoin Adres"
+msgid "Stratis Address"
+msgstr "Stratis Adres"
 
 msgid "Bitcoin Cash Address"
 msgstr ""
@@ -272,20 +272,20 @@ msgstr ""
 msgid "Bitcoin Cash Wallets"
 msgstr "Bitcoin Cash Portemonnees"
 
-msgid "Bitcoin Network Fee Policy"
-msgstr "Transactiekostenbeleid Bitcoin-netwerk"
+msgid "Stratis Network Fee Policy"
+msgstr "Transactiekostenbeleid Stratis-netwerk"
 
-msgid "Bitcoin URI"
+msgid "Stratis URI"
 msgstr ""
 
-msgid "Bitcoin Wallets"
-msgstr "Bitcoin Portemonnees"
+msgid "Stratis Wallets"
+msgstr "Stratis Portemonnees"
 
-msgid "Bitcoin network fee policy"
+msgid "Stratis network fee policy"
 msgstr ""
 
-msgid "Bitcoin transactions include a fee collected by miners on the network."
-msgstr "Bitcoin transacties bevatten transactiekosten betaald aan de miners in het netwerk."
+msgid "Stratis transactions include a fee collected by miners on the network."
+msgstr "Stratis transacties bevatten transactiekosten betaald aan de miners in het netwerk."
 
 msgid "Bitcore Wallet Service is under maintenance. Please check https://status.bitpay.com/."
 msgstr ""
@@ -305,8 +305,8 @@ msgstr ""
 msgid "Buy Gift Cards"
 msgstr ""
 
-msgid "Buying Bitcoin..."
-msgstr "Bitcoin kopen..."
+msgid "Buying Stratis..."
+msgstr "Stratis kopen..."
 
 msgid "Buying Gift Card..."
 msgstr ""
@@ -659,7 +659,7 @@ msgstr ""
 msgid "Duplicating wallet..."
 msgstr "Portemonnee dupliceren..."
 
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word recovery phrase. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each stratis wallet can generate billions of addresses from your 12-word recovery phrase. A new address is automatically generated and shown each time you receive a payment."
 msgstr ""
 
 msgid "Each copayer has their own recovery phrase. To recover funds stored in a Shared Wallet you will need the recovery phrase from each copayer."
@@ -710,7 +710,7 @@ msgstr ""
 msgid "Enter a transaction memo"
 msgstr ""
 
-msgid "Enter bitcoin address"
+msgid "Enter stratis address"
 msgstr ""
 
 msgid "Enter custom fee in {feeUnit}"
@@ -992,7 +992,7 @@ msgstr ""
 msgid "I understand"
 msgstr "Ik begrijp het"
 
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the recovery phrase"
+msgid "I understand that if this app is moved to another device or deleted, my stratis can only be recovered with the recovery phrase"
 msgstr ""
 
 msgid "I understand that my funds are held securely on this device, not by a company"
@@ -1109,7 +1109,7 @@ msgstr ""
 msgid "It's a ghost town in here"
 msgstr ""
 
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your stratis secure against hypothetical attacks by quantum computers."
 msgstr ""
 
 msgid "It's important that you write your recovery phrase down correctly. If something happens to your wallet, you'll need it to recover your money. Please review and try again."
@@ -1160,7 +1160,7 @@ msgstr ""
 msgid "Linked"
 msgstr ""
 
-msgid "Load dollars onto your BitPay Card using your bitcoin wallet. Shop anywhere that accepts Visa®"
+msgid "Load dollars onto your BitPay Card using your stratis wallet. Shop anywhere that accepts Visa®"
 msgstr ""
 
 msgid "Loading addresses..."
@@ -1361,7 +1361,7 @@ msgstr ""
 msgid "Not set"
 msgstr ""
 
-msgid "Not valid bitcoin address"
+msgid "Not valid stratis address"
 msgstr ""
 
 msgid "Note"
@@ -1457,8 +1457,8 @@ msgstr ""
 msgid "Paste this code on {cardConfig.website}. This gift card cannot be recovered if your claim code is lost."
 msgstr ""
 
-msgid "Pay 0% fees to turn bitcoin into dollars."
-msgstr "Betaal 0% transactiekosten om bitcoin om te zetten naar dollars."
+msgid "Pay 0% fees to turn stratis into dollars."
+msgstr "Betaal 0% transactiekosten om stratis om te zetten naar dollars."
 
 msgid "Payment Accepted"
 msgstr "Betaling Geaccepteerd"
@@ -1802,8 +1802,8 @@ msgstr ""
 msgid "Select currency"
 msgstr ""
 
-msgid "Selling Bitcoin..."
-msgstr "Bitcoin verkopen..."
+msgid "Selling Stratis..."
+msgstr "Stratis verkopen..."
 
 msgid "Send"
 msgstr "Verzenden"
@@ -1982,7 +1982,7 @@ msgstr "Bestedingsvoorstel niet gevonden"
 msgid "Spendable balance"
 msgstr ""
 
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Stratis network fees"
 msgstr "Dit bedrag uitgeven vereist aanzienlijke transactiekosten"
 
 msgid "Status"
@@ -2036,14 +2036,14 @@ msgstr "Bedankt!"
 msgid "The Safest, Fastest Asset Exchange on Earth"
 msgstr ""
 
-msgid "The amount of bitcoin immediately spendable from this wallet."
-msgstr "De hoeveelheid bitcoin die direct te besteden is vanuit deze portemonnee."
+msgid "The amount of stratis immediately spendable from this wallet."
+msgstr "De hoeveelheid stratis die direct te besteden is vanuit deze portemonnee."
 
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "De hoeveelheid bitcoin opgeslagen in deze portemonnee die is toegewezen als invoer voor uw wachtende betalingsvoorstellen. De hoeveelheid is bepaald door te kijken naar ongebruikte transactie uitvoer geassocieerd met deze portemonnee en kan meer zijn dan de daadwerkelijke hoeveelheid geassocieerd met de wachtende betalingsvoorstellen."
+msgid "The amount of stratis stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgstr "De hoeveelheid stratis opgeslagen in deze portemonnee die is toegewezen als invoer voor uw wachtende betalingsvoorstellen. De hoeveelheid is bepaald door te kijken naar ongebruikte transactie uitvoer geassocieerd met deze portemonnee en kan meer zijn dan de daadwerkelijke hoeveelheid geassocieerd met de wachtende betalingsvoorstellen."
 
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
-msgstr "De hoeveelheid bitcoin opgeslagen in deze portemonnee met minder dan 1 blockchain bevestiging."
+msgid "The amount of stratis stored in this wallet with less than 1 blockchain confirmation."
+msgstr "De hoeveelheid stratis opgeslagen in deze portemonnee met minder dan 1 blockchain bevestiging."
 
 msgid "The destination wallet is not backed up. Please, complete the backup process before continue."
 msgstr ""
@@ -2078,11 +2078,11 @@ msgstr ""
 msgid "The spend proposal is not pending"
 msgstr "Het bestedingsvoorstel is niet meer in behandeling"
 
-msgid "The testnet is an alternative Bitcoin block chain, to be used for testing. Testnet coins are separate and distinct from actual bitcoins, and do not have any value. This allows application developers or bitcoin testers to experiment, without having to use real bitcoins."
+msgid "The testnet is an alternative Stratis block chain, to be used for testing. Testnet coins are separate and distinct from actual stratis, and do not have any value. This allows application developers or stratis testers to experiment, without having to use real stratis."
 msgstr ""
 
-msgid "The total amount of bitcoin stored in this wallet."
-msgstr "De totale hoeveelheid bitcoin opgeslagen in deze portemonnee."
+msgid "The total amount of stratis stored in this wallet."
+msgstr "De totale hoeveelheid stratis opgeslagen in deze portemonnee."
 
 msgid "The transaction from {{walletName}} that you were waiting for has been confirmed."
 msgstr ""
@@ -2111,10 +2111,10 @@ msgstr ""
 msgid "This app is not available for your device."
 msgstr ""
 
-msgid "This bitcoin payment request has expired."
-msgstr "Dit bitcoin betalingsverzoek is verlopen."
+msgid "This stratis payment request has expired."
+msgstr "Dit stratis betalingsverzoek is verlopen."
 
-msgid "This feature duplicates a Bitcoin wallet on the Bitcoin Cash chain, enabling access to pre-fork coins. This should only be used if there are unclaimed funds before the Bitcoin Cash fork day on the wallet. The resulting wallet will use the same derivation path as the original BTC wallet."
+msgid "This feature duplicates a Stratis wallet on the Bitcoin Cash chain, enabling access to pre-fork coins. This should only be used if there are unclaimed funds before the Bitcoin Cash fork day on the wallet. The resulting wallet will use the same derivation path as the original BTC wallet."
 msgstr ""
 
 msgid "This field is only for users who, in previous versions (it's not supported anymore), set a password to protect their recovery phrase. This field is not for your encrypt password."
@@ -2144,7 +2144,7 @@ msgstr ""
 msgid "This recovery phrase was created with a password. To recover this wallet both the recovery phrase and password are needed."
 msgstr ""
 
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Stratis network fees. Spending these funds will need a Stratis network fee cost comparable to the funds itself."
 msgstr ""
 
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender."
@@ -2228,7 +2228,7 @@ msgstr ""
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Stratis Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -2249,7 +2249,7 @@ msgstr ""
 msgid "Try again in {{expires}}"
 msgstr "Probeer het nogmaals over {{expires}}"
 
-msgid "Turn bitcoin into dollars, swipe anywhere Visa® is accepted."
+msgid "Turn stratis into dollars, swipe anywhere Visa® is accepted."
 msgstr ""
 
 msgid "Type the recovery phrase (usually 12 words)"
@@ -2534,8 +2534,8 @@ msgstr ""
 msgid "You can make contributions by signing up on our Crowdin community translation website. We’re looking forward to hearing from you!"
 msgstr "U kunt een bijdrage leveren door u aan te melden bij onze Crowdin gemeenschap vertalings website. Wij kijken er naar uit om van u te horen!"
 
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
-msgstr "U kunt bitcoin adressen scannen, betalingsverzoeken, papieren portemonnees, en meer."
+msgid "You can scan stratis addresses, payment requests, paper wallets, and more."
+msgstr "U kunt stratis adressen scannen, betalingsverzoeken, papieren portemonnees, en meer."
 
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
 msgstr "U kunt de laatste ontwikkelingen volgen en bijdragen aan deze open source app door onze project pagina te bezoeken op GitHub."
@@ -2627,7 +2627,7 @@ msgstr ""
 msgid "{{countInArray}} of your wallets already exist in {{nameCase}}"
 msgstr ""
 
-msgid "{{fee}} {{coin}} will be deducted for bitcoin networking fees."
+msgid "{{fee}} {{coin}} will be deducted for stratis networking fees."
 msgstr ""
 
 msgid "{{txpsSuccess}} proposal signed"

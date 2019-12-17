@@ -68,7 +68,7 @@ export class AddressProvider {
     if (URICash.isValid(str)) return true;
     if (AddressEth.validateUri('ETH', str)) return true;
 
-    // Regular Address: try Bitcoin and Bitcoin Cash
+    // Regular Address: try Stratis and Bitcoin Cash
     if (Address.isValid(str, 'livenet')) return true;
     if (Address.isValid(str, 'testnet')) return true;
     if (AddressCash.isValid(str, 'livenet')) return true;

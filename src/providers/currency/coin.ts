@@ -78,7 +78,7 @@ export const availableCoins: CoinsMap<CoinOpts> = {
     }
   },
   btc: {
-    name: 'Bitcoin',
+    name: 'Stratis',
     chain: 'BTC',
     coin: 'btc',
     unitInfo: {

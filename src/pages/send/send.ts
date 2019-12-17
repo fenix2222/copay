@@ -99,7 +99,7 @@ export class SendPage extends WalletTabsChild {
     await this.walletTabsProvider.goToTabIndex(0);
     const coinName = this.currencyProvider.getCoinName(this.wallet.coin);
     const infoSheet = this.actionSheetProvider.createInfoSheet(
-      'receiving-bitcoin',
+      'receiving-stratis',
       { coinName }
     );
     await Observable.timer(250).toPromise();

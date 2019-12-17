@@ -160,13 +160,13 @@ export class ConfigProvider {
       rateApp: {
         bitpay: {
           ios:
-            'https://itunes.apple.com/app/bitpay-secure-bitcoin-wallet/id1149581638',
+            'https://itunes.apple.com/app/bitpay-secure-stratis-wallet/id1149581638',
           android:
             'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
           wp: ''
         },
         copay: {
-          ios: 'https://itunes.apple.com/app/copay-bitcoin-wallet/id951330296',
+          ios: 'https://itunes.apple.com/app/copay-stratis-wallet/id951330296',
           android:
             'https://play.google.com/store/apps/details?id=com.bitpay.copay',
           wp: ''

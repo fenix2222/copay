@@ -875,7 +875,7 @@ export class ConfirmPage extends WalletTabsChild {
     this.hideSlideButton = true;
     if (this.paymentExpired) {
       this.showErrorInfoSheet(
-        this.translate.instant('This bitcoin payment request has expired.')
+        this.translate.instant('This stratis payment request has expired.')
       );
       return undefined;
     }

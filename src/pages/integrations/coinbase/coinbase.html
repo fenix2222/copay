@@ -22,7 +22,7 @@
 
     <div *ngIf="!accessToken" class="center-header">
       <div padding text-center>
-        <div *ngIf="!showOauthForm">Coinbase's exchange service is available in US, and can take 3-5 days to buy or sell bitcoin.</div>
+        <div *ngIf="!showOauthForm">Coinbase's exchange service is available in US, and can take 3-5 days to buy or sell stratis.</div>
         <div *ngIf="showOauthForm">If you have trouble, contact Coinbase support for direct assistance.</div>
       </div>
       <button margin-top *ngIf="!showOauthForm" ion-button outline class="button-standard" (click)="openAuthenticateWindow()">Connect Coinbase Account</button>
@@ -40,7 +40,7 @@
       <ion-list>
         <button padding ion-item (click)="goToBuyCoinbasePage()">
           <ion-icon item-start>
-            <img src="assets/img/buy-bitcoin.svg" alt="buy bitcoin" width="30">
+            <img src="assets/img/buy-stratis.svg" alt="buy stratis" width="30">
           </ion-icon>
           <ion-label>Buy</ion-label>
           <ion-note *ngIf="buyPrice" item-end>
@@ -49,7 +49,7 @@
         </button>
         <button padding ion-item (click)="goToSellCoinbasePage()">
           <ion-icon item-start>
-            <img src="assets/img/sell-bitcoin.svg" alt="sell bitcoin" width="30">
+            <img src="assets/img/sell-stratis.svg" alt="sell stratis" width="30">
           </ion-icon>
           <ion-label>Sell</ion-label>
           <ion-note *ngIf="sellPrice"  item-end>

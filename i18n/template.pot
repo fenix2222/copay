@@ -144,7 +144,7 @@ msgid "All addresses"
 msgstr ""
 
 msgid ""
-"All of your bitcoin wallet balance may not be available for immediate "
+"All of your stratis wallet balance may not be available for immediate "
 "spending."
 msgstr ""
 
@@ -186,7 +186,7 @@ msgid "Apply changes"
 msgstr ""
 
 msgid ""
-"Approximate Bitcoin network fee to transfer wallet's balance (with normal "
+"Approximate Stratis network fee to transfer wallet's balance (with normal "
 "priority)"
 msgstr ""
 
@@ -290,7 +290,7 @@ msgstr ""
 msgid "BitPay does not receive and does not control miner fees."
 msgstr ""
 
-msgid "Bitcoin Address"
+msgid "Stratis Address"
 msgstr ""
 
 msgid "Bitcoin Cash Address"
@@ -302,19 +302,19 @@ msgstr ""
 msgid "Bitcoin Cash Wallets"
 msgstr ""
 
-msgid "Bitcoin Network Fee Policy"
+msgid "Stratis Network Fee Policy"
 msgstr ""
 
-msgid "Bitcoin URI"
+msgid "Stratis URI"
 msgstr ""
 
-msgid "Bitcoin Wallets"
+msgid "Stratis Wallets"
 msgstr ""
 
-msgid "Bitcoin network fee policy"
+msgid "Stratis network fee policy"
 msgstr ""
 
-msgid "Bitcoin transactions include a fee collected by miners on the network."
+msgid "Stratis transactions include a fee collected by miners on the network."
 msgstr ""
 
 msgid ""
@@ -337,7 +337,7 @@ msgstr ""
 msgid "Buy Gift Cards"
 msgstr ""
 
-msgid "Buying Bitcoin..."
+msgid "Buying Stratis..."
 msgstr ""
 
 msgid "Buying Gift Card..."
@@ -699,7 +699,7 @@ msgid "Duplicating wallet..."
 msgstr ""
 
 msgid ""
-"Each bitcoin wallet can generate billions of addresses from your 12-word "
+"Each stratis wallet can generate billions of addresses from your 12-word "
 "recovery phrase. A new address is automatically generated and shown each "
 "time you receive a payment."
 msgstr ""
@@ -756,7 +756,7 @@ msgstr ""
 msgid "Enter a transaction memo"
 msgstr ""
 
-msgid "Enter bitcoin address"
+msgid "Enter stratis address"
 msgstr ""
 
 msgid "Enter custom fee in {feeUnit}"
@@ -1054,7 +1054,7 @@ msgstr ""
 
 msgid ""
 "I understand that if this app is moved to another device or deleted, my "
-"bitcoin can only be recovered with the recovery phrase"
+"stratis can only be recovered with the recovery phrase"
 msgstr ""
 
 msgid ""
@@ -1185,7 +1185,7 @@ msgstr ""
 
 msgid ""
 "It's a good idea to avoid reusing addresses - this both protects your "
-"privacy and keeps your bitcoins secure against hypothetical attacks by "
+"privacy and keeps your stratis secure against hypothetical attacks by "
 "quantum computers."
 msgstr ""
 
@@ -1243,7 +1243,7 @@ msgid "Linked"
 msgstr ""
 
 msgid ""
-"Load dollars onto your BitPay Card using your bitcoin wallet. Shop anywhere "
+"Load dollars onto your BitPay Card using your stratis wallet. Shop anywhere "
 "that accepts Visa®"
 msgstr ""
 
@@ -1451,7 +1451,7 @@ msgstr ""
 msgid "Not set"
 msgstr ""
 
-msgid "Not valid bitcoin address"
+msgid "Not valid stratis address"
 msgstr ""
 
 msgid "Note"
@@ -1549,7 +1549,7 @@ msgid ""
 "if your claim code is lost."
 msgstr ""
 
-msgid "Pay 0% fees to turn bitcoin into dollars."
+msgid "Pay 0% fees to turn stratis into dollars."
 msgstr ""
 
 msgid "Payment Accepted"
@@ -1899,7 +1899,7 @@ msgstr ""
 msgid "Select currency"
 msgstr ""
 
-msgid "Selling Bitcoin..."
+msgid "Selling Stratis..."
 msgstr ""
 
 msgid "Send"
@@ -2079,7 +2079,7 @@ msgstr ""
 msgid "Spendable balance"
 msgstr ""
 
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Stratis network fees"
 msgstr ""
 
 msgid "Status"
@@ -2133,18 +2133,18 @@ msgstr ""
 msgid "The Safest, Fastest Asset Exchange on Earth"
 msgstr ""
 
-msgid "The amount of bitcoin immediately spendable from this wallet."
+msgid "The amount of stratis immediately spendable from this wallet."
 msgstr ""
 
 msgid ""
-"The amount of bitcoin stored in this wallet that is allocated as inputs to "
+"The amount of stratis stored in this wallet that is allocated as inputs to "
 "your pending transaction proposals. The amount is determined using unspent "
 "transaction outputs associated with this wallet and may be more than the "
 "actual amounts associated with your pending transaction proposals."
 msgstr ""
 
 msgid ""
-"The amount of bitcoin stored in this wallet with less than 1 blockchain "
+"The amount of stratis stored in this wallet with less than 1 blockchain "
 "confirmation."
 msgstr ""
 
@@ -2202,13 +2202,13 @@ msgid "The spend proposal is not pending"
 msgstr ""
 
 msgid ""
-"The testnet is an alternative Bitcoin block chain, to be used for testing. "
-"Testnet coins are separate and distinct from actual bitcoins, and do not "
-"have any value. This allows application developers or bitcoin testers to "
-"experiment, without having to use real bitcoins."
+"The testnet is an alternative Stratis block chain, to be used for testing. "
+"Testnet coins are separate and distinct from actual stratis, and do not "
+"have any value. This allows application developers or stratis testers to "
+"experiment, without having to use real stratis."
 msgstr ""
 
-msgid "The total amount of bitcoin stored in this wallet."
+msgid "The total amount of stratis stored in this wallet."
 msgstr ""
 
 msgid ""
@@ -2250,11 +2250,11 @@ msgstr ""
 msgid "This app is not available for your device."
 msgstr ""
 
-msgid "This bitcoin payment request has expired."
+msgid "This stratis payment request has expired."
 msgstr ""
 
 msgid ""
-"This feature duplicates a Bitcoin wallet on the Bitcoin Cash chain, "
+"This feature duplicates a Stratis wallet on the Bitcoin Cash chain, "
 "enabling access to pre-fork coins. This should only be used if there are "
 "unclaimed funds before the Bitcoin Cash fork day on the wallet. The "
 "resulting wallet will use the same derivation path as the original BTC "
@@ -2298,8 +2298,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This transaction amount is too small compared to current Bitcoin network "
-"fees. Spending these funds will need a Bitcoin network fee cost comparable "
+"This transaction amount is too small compared to current Stratis network "
+"fees. Spending these funds will need a Stratis network fee cost comparable "
 "to the funds itself."
 msgstr ""
 
@@ -2390,7 +2390,7 @@ msgstr ""
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Stratis Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -2411,7 +2411,7 @@ msgstr ""
 msgid "Try again in {{expires}}"
 msgstr ""
 
-msgid "Turn bitcoin into dollars, swipe anywhere Visa® is accepted."
+msgid "Turn stratis into dollars, swipe anywhere Visa® is accepted."
 msgstr ""
 
 msgid "Type the recovery phrase (usually 12 words)"
@@ -2726,7 +2726,7 @@ msgid ""
 "translation website. We’re looking forward to hearing from you!"
 msgstr ""
 
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
+msgid "You can scan stratis addresses, payment requests, paper wallets, and more."
 msgstr ""
 
 msgid ""
@@ -2848,7 +2848,7 @@ msgstr ""
 msgid "{{countInArray}} of your wallets already exist in {{nameCase}}"
 msgstr ""
 
-msgid "{{fee}} {{coin}} will be deducted for bitcoin networking fees."
+msgid "{{fee}} {{coin}} will be deducted for stratis networking fees."
 msgstr ""
 
 msgid "{{txpsSuccess}} proposal signed"

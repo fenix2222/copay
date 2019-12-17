@@ -68,7 +68,7 @@ export class IncomingDataProvider {
 
   private isValidPayProNonBackwardsCompatible(data: string): boolean {
     data = this.sanitizeUri(data);
-    return !!/^(bitcoin|bitcoincash|bchtest|ethereum)?:\?r=[\w+]/.exec(data);
+    return !!/^(stratis|bitcoincash|bchtest|ethereum)?:\?r=[\w+]/.exec(data);
   }
 
   private isValidBitPayInvoice(data: string): boolean {
@@ -107,7 +107,7 @@ export class IncomingDataProvider {
     data = this.sanitizeUri(data);
     return !!this.bwcProvider
       .getBitcore()
-      .URI.isValid(data.replace(/^(bitcoincash:|bchtest:)/, 'bitcoin:'));
+      .URI.isValid(data.replace(/^(bitcoincash:|bchtest:)/, 'stratis:'));
   }
 
   private isValidPlainUrl(data: string): boolean {
@@ -265,7 +265,7 @@ export class IncomingDataProvider {
   }
 
   private handleBitcoinUri(data: string, redirParams?: RedirParams): void {
-    this.logger.debug('Incoming-data: Bitcoin URI');
+    this.logger.debug('Incoming-data: Stratis URI');
     let amountFromRedirParams =
       redirParams && redirParams.amount ? redirParams.amount : '';
     const coin = Coin.BTC;
@@ -327,7 +327,7 @@ export class IncomingDataProvider {
     const coin = Coin.BCH;
     let parsed = this.bwcProvider
       .getBitcore()
-      .URI(data.replace(/^(bitcoincash:|bchtest:)/, 'bitcoin:'));
+      .URI(data.replace(/^(bitcoincash:|bchtest:)/, 'stratis:'));
 
     let oldAddr = parsed.address ? parsed.address.toString() : '';
     if (!oldAddr)
@@ -345,7 +345,7 @@ export class IncomingDataProvider {
     let amount = parsed.amount ? parsed.amount : '';
 
     // Translate address
-    this.logger.warn('Legacy Bitcoin Address transalated to: ' + address);
+    this.logger.warn('Legacy Stratis Address transalated to: ' + address);
     if (parsed.r) this.goToPayPro(data, coin);
     else this.goSend(address, amount, message, coin);
   }
@@ -363,7 +363,7 @@ export class IncomingDataProvider {
     data: string,
     redirParams?: RedirParams
   ): void {
-    this.logger.debug('Incoming-data: Bitcoin plain address');
+    this.logger.debug('Incoming-data: Stratis plain address');
     const coin = Coin.BTC;
     if (redirParams && redirParams.activePage === 'ScanPage') {
       this.showMenu({
@@ -524,7 +524,7 @@ export class IncomingDataProvider {
       this.handlePayProNonBackwardsCompatible(data);
       return true;
 
-      // Bitcoin  URI
+      // Stratis  URI
     } else if (this.isValidBitcoinUri(data)) {
       this.handleBitcoinUri(data, redirParams);
       return true;
@@ -539,7 +539,7 @@ export class IncomingDataProvider {
       this.handleEthereumUri(data, redirParams);
       return true;
 
-      // Bitcoin Cash URI using Bitcoin Core legacy address
+      // Bitcoin Cash URI using Stratis Core legacy address
     } else if (this.isValidBitcoinCashUriWithLegacyAddress(data)) {
       this.handleBitcoinCashUriLegacyAddress(data);
       return true;
@@ -549,7 +549,7 @@ export class IncomingDataProvider {
       this.handlePlainUrl(data);
       return true;
 
-      // Plain Address (Bitcoin)
+      // Plain Address (Stratis)
     } else if (this.isValidBitcoinAddress(data)) {
       this.handlePlainBitcoinAddress(data, redirParams);
       return true;
@@ -630,12 +630,12 @@ export class IncomingDataProvider {
         title: this.translate.instant('Payment URL')
       };
 
-      // Bitcoin URI
+      // Stratis URI
     } else if (this.isValidBitcoinUri(data)) {
       return {
         data,
         type: 'BitcoinUri',
-        title: this.translate.instant('Bitcoin URI')
+        title: this.translate.instant('Stratis URI')
       };
 
       // Bitcoin Cash URI
@@ -654,7 +654,7 @@ export class IncomingDataProvider {
         title: this.translate.instant('Ethereum URI')
       };
 
-      // Bitcoin Cash URI using Bitcoin Core legacy address
+      // Bitcoin Cash URI using Stratis Core legacy address
     } else if (this.isValidBitcoinCashUriWithLegacyAddress(data)) {
       return {
         data,
@@ -670,12 +670,12 @@ export class IncomingDataProvider {
         title: this.translate.instant('Plain URL')
       };
 
-      // Plain Address (Bitcoin)
+      // Plain Address (Stratis)
     } else if (this.isValidBitcoinAddress(data)) {
       return {
         data,
         type: 'BitcoinAddress',
-        title: this.translate.instant('Bitcoin Address')
+        title: this.translate.instant('Stratis Address')
       };
 
       // Plain Address (Bitcoin Cash)
@@ -772,7 +772,7 @@ export class IncomingDataProvider {
 
   public getPayProUrl(data: string): string {
     return decodeURIComponent(
-      data.replace(/(bitcoin|bitcoincash|ethereum)?:\?r=/, '')
+      data.replace(/(stratis|bitcoincash|ethereum)?:\?r=/, '')
     );
   }
 

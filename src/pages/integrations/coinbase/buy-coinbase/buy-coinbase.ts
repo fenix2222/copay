@@ -212,7 +212,7 @@ export class BuyCoinbasePage {
   }
 
   public buyConfirm() {
-    let message = 'Buy bitcoin for ' + this.amountUnitStr;
+    let message = 'Buy stratis for ' + this.amountUnitStr;
     let okText = 'Confirm';
     let cancelText = 'Cancel';
     this.popupProvider
@@ -356,7 +356,7 @@ export class BuyCoinbasePage {
 
     // ** Buy always in BTC **
     // It 's needed for calculate the fee to send
-    // purchased bitcoin from Coinbase to Copay in a
+    // purchased stratis from Coinbase to Copay in a
     // single transaction
     this.amount = (parsedAmount.amountSat / 100000000).toFixed(8);
     this.currency = 'BTC';
@@ -376,7 +376,7 @@ export class BuyCoinbasePage {
   private openFinishModal(): void {
     let finishText = 'Bought';
     let finishComment =
-      'Bitcoin purchase completed. Coinbase has queued the transfer to your selected wallet';
+      'Stratis purchase completed. Coinbase has queued the transfer to your selected wallet';
     let modal = this.modalCtrl.create(
       FinishModalPage,
       { finishText, finishComment },

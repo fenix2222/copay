@@ -134,7 +134,7 @@ msgstr "All"
 msgid "All addresses"
 msgstr "All addresses"
 
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your stratis wallet balance may not be available for immediate spending."
 msgstr "모든 비트코인 지갑 잔액은 즉각적으로 지출할 수 없습니다."
 
 msgid "Allow camera access"
@@ -170,7 +170,7 @@ msgstr "Amount:"
 msgid "Apply changes"
 msgstr "변경사항 적용"
 
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate Stratis network fee to transfer wallet's balance (with normal priority)"
 msgstr "지갑 잔액을 이체하기 위한 대략적인 비트코인 네트워크 수수료 (보통 우선 순위)"
 
 msgid "Archive All {brand} Gift Cards?"
@@ -260,7 +260,7 @@ msgstr "BitPay Card URI"
 msgid "BitPay does not receive and does not control miner fees."
 msgstr "BitPay does not receive and does not control miner fees."
 
-msgid "Bitcoin Address"
+msgid "Stratis Address"
 msgstr "비트코인 주소"
 
 msgid "Bitcoin Cash Address"
@@ -272,19 +272,19 @@ msgstr "비트코인 캐시 URL(통합 자원 식별자)"
 msgid "Bitcoin Cash Wallets"
 msgstr "비트코인 캐시 지갑"
 
-msgid "Bitcoin Network Fee Policy"
+msgid "Stratis Network Fee Policy"
 msgstr "비트코인 네트워크 수수료 정책"
 
-msgid "Bitcoin URI"
+msgid "Stratis URI"
 msgstr "비트코인 URI"
 
-msgid "Bitcoin Wallets"
+msgid "Stratis Wallets"
 msgstr "비트코인 지갑"
 
-msgid "Bitcoin network fee policy"
+msgid "Stratis network fee policy"
 msgstr "비트코인 네트워크 수수료 정책"
 
-msgid "Bitcoin transactions include a fee collected by miners on the network."
+msgid "Stratis transactions include a fee collected by miners on the network."
 msgstr "비트코인 거래에는 마이너가 네트워크에서 수집한 수수료가 포함됩니다."
 
 msgid "Bitcore Wallet Service is under maintenance. Please check https://status.bitpay.com/."
@@ -305,7 +305,7 @@ msgstr "기프트 카드 구입하기"
 msgid "Buy Gift Cards"
 msgstr "기프트 카드 구입하기"
 
-msgid "Buying Bitcoin..."
+msgid "Buying Stratis..."
 msgstr "비트코인 구입 중..."
 
 msgid "Buying Gift Card..."
@@ -659,7 +659,7 @@ msgstr "Duplicate to BCH"
 msgid "Duplicating wallet..."
 msgstr "지갑 복제 중..."
 
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word recovery phrase. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each stratis wallet can generate billions of addresses from your 12-word recovery phrase. A new address is automatically generated and shown each time you receive a payment."
 msgstr "각각의 비트코인 지갑은 귀하의 12개 단어의 복구 문구로부터 수십억 개의 주소를 생성할 수 있습니다. 지불을 받을 때마다 새로운 주소가 자동으로 생성되고 표시됩니다."
 
 msgid "Each copayer has their own recovery phrase. To recover funds stored in a Shared Wallet you will need the recovery phrase from each copayer."
@@ -710,7 +710,7 @@ msgstr "지갑을 암호화할 비밀번호를 입력하십시오."
 msgid "Enter a transaction memo"
 msgstr "Enter a transaction memo"
 
-msgid "Enter bitcoin address"
+msgid "Enter stratis address"
 msgstr "비트코인 주소를 입력해주세요"
 
 msgid "Enter custom fee in {feeUnit}"
@@ -992,7 +992,7 @@ msgstr ""
 msgid "I understand"
 msgstr "이해합니다"
 
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the recovery phrase"
+msgid "I understand that if this app is moved to another device or deleted, my stratis can only be recovered with the recovery phrase"
 msgstr ""
 
 msgid "I understand that my funds are held securely on this device, not by a company"
@@ -1109,7 +1109,7 @@ msgstr ""
 msgid "It's a ghost town in here"
 msgstr ""
 
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your stratis secure against hypothetical attacks by quantum computers."
 msgstr ""
 
 msgid "It's important that you write your recovery phrase down correctly. If something happens to your wallet, you'll need it to recover your money. Please review and try again."
@@ -1160,7 +1160,7 @@ msgstr ""
 msgid "Linked"
 msgstr ""
 
-msgid "Load dollars onto your BitPay Card using your bitcoin wallet. Shop anywhere that accepts Visa®"
+msgid "Load dollars onto your BitPay Card using your stratis wallet. Shop anywhere that accepts Visa®"
 msgstr ""
 
 msgid "Loading addresses..."
@@ -1361,7 +1361,7 @@ msgstr ""
 msgid "Not set"
 msgstr ""
 
-msgid "Not valid bitcoin address"
+msgid "Not valid stratis address"
 msgstr ""
 
 msgid "Note"
@@ -1457,7 +1457,7 @@ msgstr ""
 msgid "Paste this code on {cardConfig.website}. This gift card cannot be recovered if your claim code is lost."
 msgstr ""
 
-msgid "Pay 0% fees to turn bitcoin into dollars."
+msgid "Pay 0% fees to turn stratis into dollars."
 msgstr "비트코인을 달러로 바꾸는데 0%의 수수료가 듭니다."
 
 msgid "Payment Accepted"
@@ -1802,7 +1802,7 @@ msgstr ""
 msgid "Select currency"
 msgstr ""
 
-msgid "Selling Bitcoin..."
+msgid "Selling Stratis..."
 msgstr "비트코인 판매 중..."
 
 msgid "Send"
@@ -1982,7 +1982,7 @@ msgstr "지출 제안을 찾을 수 없습니다"
 msgid "Spendable balance"
 msgstr ""
 
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Stratis network fees"
 msgstr "이 잔액을 사용하려면 유효한 비트코인 네트워크 수수료가 필요합니다"
 
 msgid "Status"
@@ -2036,13 +2036,13 @@ msgstr "감사합니다!"
 msgid "The Safest, Fastest Asset Exchange on Earth"
 msgstr ""
 
-msgid "The amount of bitcoin immediately spendable from this wallet."
+msgid "The amount of stratis immediately spendable from this wallet."
 msgstr "이 지갑에서 즉시 사용 가능한 비트코인 양."
 
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgid "The amount of stratis stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
 msgstr "귀하의 보류 중인 거래 제안에 입금된 이 지갑에 저장된 비트코인 양. 이 양은 이 지갑과 관련된 미사용 거래 출금을 사용하여 결정되며 보류 중인 거래 제안과 관련된 실제 양보다 많을 수 있습니다."
 
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
+msgid "The amount of stratis stored in this wallet with less than 1 blockchain confirmation."
 msgstr "1 블록체인 확인 미만의 이 지갑에 저장된 비트코인 양."
 
 msgid "The destination wallet is not backed up. Please, complete the backup process before continue."
@@ -2078,10 +2078,10 @@ msgstr ""
 msgid "The spend proposal is not pending"
 msgstr "보류 중인 지출 제안이 아닙니다"
 
-msgid "The testnet is an alternative Bitcoin block chain, to be used for testing. Testnet coins are separate and distinct from actual bitcoins, and do not have any value. This allows application developers or bitcoin testers to experiment, without having to use real bitcoins."
+msgid "The testnet is an alternative Stratis block chain, to be used for testing. Testnet coins are separate and distinct from actual stratis, and do not have any value. This allows application developers or stratis testers to experiment, without having to use real stratis."
 msgstr ""
 
-msgid "The total amount of bitcoin stored in this wallet."
+msgid "The total amount of stratis stored in this wallet."
 msgstr "이 지갑에 저장된 비트코인 양 합계."
 
 msgid "The transaction from {{walletName}} that you were waiting for has been confirmed."
@@ -2111,10 +2111,10 @@ msgstr ""
 msgid "This app is not available for your device."
 msgstr ""
 
-msgid "This bitcoin payment request has expired."
+msgid "This stratis payment request has expired."
 msgstr "이 비트코인 지불 요청은 만료되었습니다."
 
-msgid "This feature duplicates a Bitcoin wallet on the Bitcoin Cash chain, enabling access to pre-fork coins. This should only be used if there are unclaimed funds before the Bitcoin Cash fork day on the wallet. The resulting wallet will use the same derivation path as the original BTC wallet."
+msgid "This feature duplicates a Stratis wallet on the Bitcoin Cash chain, enabling access to pre-fork coins. This should only be used if there are unclaimed funds before the Bitcoin Cash fork day on the wallet. The resulting wallet will use the same derivation path as the original BTC wallet."
 msgstr ""
 
 msgid "This field is only for users who, in previous versions (it's not supported anymore), set a password to protect their recovery phrase. This field is not for your encrypt password."
@@ -2144,7 +2144,7 @@ msgstr ""
 msgid "This recovery phrase was created with a password. To recover this wallet both the recovery phrase and password are needed."
 msgstr ""
 
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current Stratis network fees. Spending these funds will need a Stratis network fee cost comparable to the funds itself."
 msgstr ""
 
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender."
@@ -2228,7 +2228,7 @@ msgstr ""
 msgid "Transfer to Bitcoin Cash Wallet"
 msgstr ""
 
-msgid "Transfer to Bitcoin Wallet"
+msgid "Transfer to Stratis Wallet"
 msgstr ""
 
 msgid "Transfer to Contact"
@@ -2249,7 +2249,7 @@ msgstr ""
 msgid "Try again in {{expires}}"
 msgstr "{{expires}} 내에 다시 시도해주세요"
 
-msgid "Turn bitcoin into dollars, swipe anywhere Visa® is accepted."
+msgid "Turn stratis into dollars, swipe anywhere Visa® is accepted."
 msgstr ""
 
 msgid "Type the recovery phrase (usually 12 words)"
@@ -2534,7 +2534,7 @@ msgstr ""
 msgid "You can make contributions by signing up on our Crowdin community translation website. We’re looking forward to hearing from you!"
 msgstr "저희의 Crowdin 커뮤니티 번역 웹사이트에 가입하여 기여하실 수 있습니다. 귀하의 소식을 기다리겠습니다!"
 
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
+msgid "You can scan stratis addresses, payment requests, paper wallets, and more."
 msgstr "비트코인 주소, 지불 요청, 페이퍼 지갑 등을 스캔하실 수 있습니다."
 
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
@@ -2627,7 +2627,7 @@ msgstr ""
 msgid "{{countInArray}} of your wallets already exist in {{nameCase}}"
 msgstr ""
 
-msgid "{{fee}} {{coin}} will be deducted for bitcoin networking fees."
+msgid "{{fee}} {{coin}} will be deducted for stratis networking fees."
 msgstr ""
 
 msgid "{{txpsSuccess}} proposal signed"

@@ -36,7 +36,7 @@ export type InfoSheetType =
   | 'miner-fee-notice'
   | 'payment-request'
   | 'print-required'
-  | 'receiving-bitcoin'
+  | 'receiving-stratis'
   | 'sensitive-info'
   | 'in-app-notification'
   | 'request-feature'

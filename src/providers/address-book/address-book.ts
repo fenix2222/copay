@@ -73,7 +73,7 @@ export class AddressBookProvider {
     return new Promise((resolve, reject) => {
       const addrData = this.addressProvider.getCoinAndNetwork(entry.address);
       if (_.isEmpty(addrData)) {
-        let msg = this.translate.instant('Not valid bitcoin address');
+        let msg = this.translate.instant('Not valid stratis address');
         return reject(msg);
       }
 
@@ -115,7 +115,7 @@ export class AddressBookProvider {
       const addrData = this.addressProvider.getCoinAndNetwork(addr);
 
       if (_.isEmpty(addrData)) {
-        let msg = this.translate.instant('Not valid bitcoin address');
+        let msg = this.translate.instant('Not valid stratis address');
         return reject(msg);
       }
 
