@@ -13,7 +13,7 @@ export enum Coin {
   STRAT = 'strat'
 }
 
-export type CoinsMap<T> = { [key in Coin]: T };
+export interface CoinsMap<T> { 'strat': T };
 
 @Injectable()
 export class CurrencyProvider {
