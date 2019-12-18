@@ -8,7 +8,7 @@
         Stratis Group Ltd.
     </author>
     <content src="index.html" />
-    <access origin="https://stratis-rates.azurewebsites.net" />
+    <access origin="https://stratrates.stratisplatform.com" />
     <access origin="https://mw-ws.stratisplatform.com" />
     <allow-navigation href="gap://ready" />
     <preference name="AndroidPersistentFileLocation" value="Internal" />
