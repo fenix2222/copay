@@ -56,7 +56,7 @@ export class BwcProvider {
 
     // note opts use `bwsurl` all lowercase;
     let bwc = new BWC({
-      baseUrl: opts.bwsurl || 'https://bws.smartcontracts.pw/bws/api',
+      baseUrl: opts.bwsurl || 'https://mw-ws.stratisplatform.com/bws/api',
       verbose: opts.verbose,
       timeout: 100000,
       transports: ['polling'],

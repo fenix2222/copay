@@ -145,7 +145,7 @@ export class ConfigProvider {
 
       // Bitcore wallet service URL
       bws: {
-        url: 'https://bws.smartcontracts.pw/bws/api'
+        url: 'https://mw-ws.stratisplatform.com/bws/api'
       },
 
       download: {
