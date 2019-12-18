@@ -145,7 +145,7 @@ export class ConfigProvider {
 
       // Bitcore wallet service URL
       bws: {
-        url: 'http://localhost:3232/bws/api'
+        url: 'https://bws.smartcontracts.pw/bws/api'
       },
 
       download: {
