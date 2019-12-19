@@ -2619,8 +2619,8 @@ msgstr "Las tarjetas de regalo de {displayName} contienen una tarifa adicional d
 msgid "{displayName} requires you to present a printed gift card at redemption."
 msgstr "{displayName} requiere presentar la Gift Card impresa para realizar el canje."
 
-msgid "{{appName}} depends on Stratis Wallet Service (SWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
-msgstr "{{appName}} depende de Stratis Wallet Service (SWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a https://bws.bitpay.com (instancia BWS pública de BitPay)."
+msgid "{{appName}} depends on Stratis Wallet Service (SWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://mw-ws.stratisplatform.com (Stratis' public SWS instance)."
+msgstr "{{appName}} depende de Stratis Wallet Service (SWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a https://mw-ws.stratisplatform.com (instancia SWS pública de Stratis)."
 
 msgid "{{appName}} only supports Bitcoin Cash using new version numbers addresses."
 msgstr "{{appName}} solo soporta Bitcoin Cash utilizando la nueva versión de direcciones."

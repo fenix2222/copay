@@ -61,7 +61,7 @@ export class WalletServiceUrlPage {
     let appName = this.app.info.nameCase;
     this.comment = this.replaceParametersProvider.replace(
       this.translate.instant(
-        "{{appName}} depends on Stratis Wallet Service (SWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
+        "{{appName}} depends on Stratis Wallet Service (SWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://mw-ws.stratisplatform.com (Stratis' public SWS instance)."
       ),
       { appName }
     );
