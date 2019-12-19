@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { FCMNG } from 'fcm-ng';
 import { Events } from 'ionic-angular';
 import { Observable } from 'rxjs';
 import { Logger } from '../../providers/logger/logger';
@@ -29,7 +28,6 @@ export class PushNotificationsProvider {
     public logger: Logger,
     public appProvider: AppProvider,
     private bwcProvider: BwcProvider,
-    private FCMPlugin: FCMNG,
     private events: Events
   ) {
     this.logger.debug('PushNotificationsProvider initialized');
@@ -47,41 +45,41 @@ export class PushNotificationsProvider {
       this.logger.debug('Starting push notification registration...');
 
       // Keep in mind the function will return null if the token has not been established yet.
-      this.FCMPlugin.getToken().then(token => {
-        if (!token) {
-          setTimeout(() => {
-            this.init();
-          }, 5000);
-          return;
-        }
-        this.logger.debug('Get token for push notifications: ' + token);
-        this._token = token;
-        this.enable();
-        // enabling topics
-        this.handlePushNotifications();
-        if (config.offersAndPromotions.enabled)
-          this.subscribeToTopic('offersandpromotions');
-        if (config.productsUpdates.enabled)
-          this.subscribeToTopic('productsupdates');
-      });
+      // this.FCMPlugin.getToken().then(token => {
+      //   if (!token) {
+      //     setTimeout(() => {
+      //       this.init();
+      //     }, 5000);
+      //     return;
+      //   }
+      //   this.logger.debug('Get token for push notifications: ' + token);
+      //   this._token = token;
+      //   this.enable();
+      //   // enabling topics
+      //   this.handlePushNotifications();
+      //   if (config.offersAndPromotions.enabled)
+      //     this.subscribeToTopic('offersandpromotions');
+      //   if (config.productsUpdates.enabled)
+      //     this.subscribeToTopic('productsupdates');
+      // });
     });
   }
 
   public handlePushNotifications(): void {
-    if (this.usePushNotifications) {
-      this.FCMPlugin.onNotification().subscribe(async data => {
-        if (!this._token) return;
-        this.logger.debug(
-          'New Event Push onNotification: ' + JSON.stringify(data)
-        );
-        if (data.wasTapped) {
-          // Notification was received on device tray and tapped by the user.
-          const walletIdHashed = data.walletId;
-          if (!walletIdHashed) return;
-          this._openWallet(walletIdHashed);
-        }
-      });
-    }
+    // if (this.usePushNotifications) {
+    //   this.FCMPlugin.onNotification().subscribe(async data => {
+    //     if (!this._token) return;
+    //     this.logger.debug(
+    //       'New Event Push onNotification: ' + JSON.stringify(data)
+    //     );
+    //     if (data.wasTapped) {
+    //       // Notification was received on device tray and tapped by the user.
+    //       const walletIdHashed = data.walletId;
+    //       if (!walletIdHashed) return;
+    //       this._openWallet(walletIdHashed);
+    //     }
+    //   });
+    // }
   }
 
   public updateSubscription(walletClient): void {
@@ -142,11 +140,11 @@ export class PushNotificationsProvider {
   }
 
   public subscribeToTopic(topic: string): void {
-    this.FCMPlugin.subscribeToTopic(topic);
+    // this.FCMPlugin.subscribeToTopic(topic);
   }
 
   public unsubscribeFromTopic(topic: string): void {
-    this.FCMPlugin.unsubscribeFromTopic(topic);
+    // this.FCMPlugin.unsubscribeFromTopic(topic);
   }
 
   private _subscribe(walletClient): void {
@@ -207,6 +205,6 @@ export class PushNotificationsProvider {
 
   public clearAllNotifications(): void {
     if (!this._token) return;
-    this.FCMPlugin.clearAllNotifications();
+    // this.FCMPlugin.clearAllNotifications();
   }
 }
