@@ -2153,8 +2153,8 @@ msgstr ""
 msgid "This transaction requires a high network fee because either the sending amount is too small or the network is experiencing congestion."
 msgstr ""
 
-msgid "This wallet is not registered at the given Bitcore Wallet Service (BWS). You can recreate it from the local information."
-msgstr "此钱包不在给定的 Bitcore Wallet Service (BWS) 注册。你可以从本地信息重新创建它。"
+msgid "This wallet is not registered at the given Stratis Wallet Service (SWS). You can recreate it from the local information."
+msgstr "此钱包不在给定的 Stratis Wallet Service (SWS) 注册。你可以从本地信息重新创建它。"
 
 msgid "Timeline"
 msgstr "时间轴"
@@ -2618,7 +2618,7 @@ msgstr ""
 msgid "{displayName} requires you to present a printed gift card at redemption."
 msgstr ""
 
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
+msgid "{{appName}} depends on Stratis Wallet Service (SWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
 msgstr "{{appName}}依赖Bitcore Wallet Service(BWS)进行区块链信息、网络和复制层同步。默认配置指向https：/bws.bitpay.com(BitPay's public BWS instance)。"
 
 msgid "{{appName}} only supports Bitcoin Cash using new version numbers addresses."

@@ -2153,8 +2153,8 @@ msgstr "Cette transaction pourrait prendre beaucoup de temps pour être confirm�
 msgid "This transaction requires a high network fee because either the sending amount is too small or the network is experiencing congestion."
 msgstr "Cette transaction nécessite des frais de réseau élevés, soit à cause d'un montant d'envoi trop faible, soit à cause du réseau qui connaît une congestion."
 
-msgid "This wallet is not registered at the given Bitcore Wallet Service (BWS). You can recreate it from the local information."
-msgstr "Ce portefeuille n'est pas enregistré dans le Bitcore Wallet Service (BWS) donné. Vous pouvez le recréer depuis l'information locale."
+msgid "This wallet is not registered at the given Stratis Wallet Service (SWS). You can recreate it from the local information."
+msgstr "Ce portefeuille n'est pas enregistré dans le Stratis Wallet Service (SWS) donné. Vous pouvez le recréer depuis l'information locale."
 
 msgid "Timeline"
 msgstr "Chronologie"
@@ -2618,8 +2618,8 @@ msgstr "Les cartes-cadeaux {displayName} contiennent des frais d'activation supp
 msgid "{displayName} requires you to present a printed gift card at redemption."
 msgstr "{displayName} vous demande de présenter une carte-cadeau imprimée pour le rachat."
 
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
-msgstr "{{appName}} repose sur Bitcore Wallet Service (BWS) pour les informations de blockchain, le réseau et la synchronisation des Copayers. La configuration par défaut est orientée vers https://bws.bitpay.com (instance BWS publique de BitPay)."
+msgid "{{appName}} depends on Stratis Wallet Service (SWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
+msgstr "{{appName}} repose sur Stratis Wallet Service (SWS) pour les informations de blockchain, le réseau et la synchronisation des Copayers. La configuration par défaut est orientée vers https://bws.bitpay.com (instance BWS publique de BitPay)."
 
 msgid "{{appName}} only supports Bitcoin Cash using new version numbers addresses."
 msgstr "{{appName}} prend uniquement en charge le nouveau type d'adresse de Bitcoin Cash."
