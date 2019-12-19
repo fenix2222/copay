@@ -2,7 +2,7 @@
 <widget android-versionCode="80000400" id="com.stratisplatform.wallet" ios-CFBundleVersion="1.0.0" version="1.0.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Stratis Wallet</name>
     <description>
-      Stratis Wallet Wallet
+      Stratis Mobile Wallet
     </description>
     <author email="support@stratisplatform.com" href="https://stratisplatform.com">
         Stratis Group Ltd.
@@ -59,11 +59,7 @@
     <plugin name="cordova-plugin-file" spec="6.0.2" />
     <plugin name="cordova-custom-config" spec="https://github.com/cmgustavo/cordova-custom-config.git#3a1902fb700dc8c1e9ac9db592aa48d7d900cde0" />
     <plugin name="cordova-plugin-customurlscheme-ng" spec="7.0.0">
-        <variable name="URL_SCHEME" value="bitcoin" />
-        <variable name="SECOND_URL_SCHEME" value="stratis" />
-        <variable name="THIRD_URL_SCHEME" value="bitcoincash" />
-        <variable name="FOURTH_URL_SCHEME" value="bchtest" />
-        <variable name="FIFTH_URL_SCHEME" value="ethereum" />
+        <variable name="URL_SCHEME" value="stratis" />
         <variable name="ANDROID_SCHEME" value="" />
         <variable name="ANDROID_HOST" value="" />
         <variable name="ANDROID_PATHPREFIX" value="" />
