@@ -1664,7 +1664,7 @@ msgstr "Destinataire"
 msgid "Recover old wallets"
 msgstr "Récupérer des anciens portefeuilles"
 
-msgid "Recover your wallet using your passphrase"
+msgid "Recover your wallet using your secret words"
 msgstr "Récupérer votre portefeuille en utilisant votre phrase de récupération"
 
 msgid "Recovery Phrase"

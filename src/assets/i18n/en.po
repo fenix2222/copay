@@ -1886,8 +1886,8 @@ msgstr "Recipient"
 msgid "Recover old wallets"
 msgstr "Recover old wallets"
 
-msgid "Recover your wallet using your passphrase"
-msgstr "Recover your wallet using your passphrase"
+msgid "Recover your wallet using your secret words"
+msgstr "Recover your wallet using your secret words"
 
 msgid "Recovery Phrase"
 msgstr "Recovery Phrase"
