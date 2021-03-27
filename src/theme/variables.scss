@@ -18,14 +18,18 @@ $app-direction: ltr;
 // Override - Homogenized ionic component styles
 @import 'icons';
 @import 'lists';
-@import 'overrides';
+//@import 'overrides';
 @import 'mixins';
 @import 'modals';
 @import 'zero-state';
+
+$color-secondary: #eb54df;
+$slider-bg-color: #5476eb;
+
 // Colors
 $colors: (
-  primary: $color-primary,
-  secondary: $color-secondary,
+  primary: #5476eb,
+  secondary: #eb54df,
   warning: #fdb455,
   danger: #df5264,
   success: #01d1a2,
@@ -64,7 +68,8 @@ $list-border-color: color($colors, light);
 $toolbar-ios-title-text-color: color($colors, light);
 $toolbar-md-title-text-color: color($colors, light);
 // Onboarding colors
-$onboarding-gradient-bottom-color: $color-secondary-dark;
+$onboarding-gradient-bottom-color: #41133d;
+$onboarding-gradient-top-color: #41133d;
 $onboarding-background-image: linear-gradient(
   to bottom,
   $onboarding-gradient-top-color 0%,

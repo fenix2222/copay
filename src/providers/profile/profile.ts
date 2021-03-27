@@ -1500,7 +1500,7 @@ export class ProfileProvider {
       bp_partner: ethWallet.bp_partner,
       bp_partner_version: ethWallet.bp_partner_version
     });
-    walletClient.fromObj(tokenCredentials);
+    walletClient.fromString(tokenCredentials);
 
     // Add the token info to the ethWallet.
     ethWallet.preferences = ethWallet.preferences || {};

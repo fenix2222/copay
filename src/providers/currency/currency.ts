@@ -10,10 +10,10 @@ export enum Coin {
   // USDC = 'usdc',
   // GUSD = 'gusd',
   // PAX = 'pax',
-  STRAT = 'strat'
+  STRAT = 'strax'
 }
 
-export interface CoinsMap<T> { 'strat': T };
+export interface CoinsMap<T> { 'strax': T };
 
 @Injectable()
 export class CurrencyProvider {

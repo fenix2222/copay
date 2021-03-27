@@ -42,12 +42,12 @@ export interface CoinOpts {
 }
 
 export const availableCoins: CoinsMap<CoinOpts> = {
-  strat: {
+  strax: {
     name: 'Stratis',
-    chain: 'STRAT',
+    chain: 'STRAX',
     coin: 'strat',
     unitInfo: {
-      unitName: 'STRAT',
+      unitName: 'STRAX',
       unitToSatoshi: 100000000,
       unitDecimals: 8,
       unitCode: 'strat'

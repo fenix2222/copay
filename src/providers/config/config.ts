@@ -132,7 +132,7 @@ export class ConfigProvider {
         reconnectDelay: 5000,
         idleDurationMin: 4,
         settings: {
-          unitName: 'STRAT',
+          unitName: 'STRAX',
           unitToSatoshi: 100000000,
           unitDecimals: 8,
           unitCode: 'strat',
